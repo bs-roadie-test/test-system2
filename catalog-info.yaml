@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-system2
+  title: Sample Service # optional, human readable component name
+  description: My second Backstage catalog item.
+  annotations:
+    github.com/project-slug: bs-roadie-test/test-system2
+spec:
+  type: service
+  owner: user:bs-roadie-test
+  lifecycle: experimental
